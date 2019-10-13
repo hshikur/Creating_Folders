@@ -1,7 +1,7 @@
 import os
 
 # define the name of the directory to be created
-path = "/tmp/year/month/week/day"
+path = "/tmp/year/month/week/day1"
 
 try:
     os.makedirs(path)

@@ -1,18 +1,31 @@
 import os
 from tkinter import *
-#master = Tk()
-#master.geometry("300x300")
-#master.title("Test Evidence")
 
-folders = ['folder 01', 'folder 02', 'folder 03']
-root_path = '/tmp'
+#def component_name(): 
+#    Device_component_name = e1.get()
+#    folder=Label(master)
+#    folder.grid(row=0,column=1)     
 
-def createe():
-     root_path = '/tmp'
-     folders = ['folder 01', 'folder 02', 'folder 03']
+#def createFolder(get()):
+#    try:
+#        if not os.path.exists(get()):
+#            os.makedirs(get())
+#    except OSError:
+#        print ('Error: Creating get(). ' +  get())
+#        
 
-for folder in folders:
-    os.mkdir(os.path.join(root_path, folder))
+# Example
+#createFolder('./data/')
+
+#folders = ['folder 01', 'folder 02', 'folder 03']
+#root_path = '/tmp'
+
+#def createe():
+#     root_path = '/tmp'
+#     folders = ['folder 01', 'folder 02', 'folder 03']
+
+#for folder in folders:
+#    os.mkdir(os.path.join(root_path, folder))
 
 master = Tk()
 master.geometry("300x300")

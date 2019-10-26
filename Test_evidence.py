@@ -1,8 +1,18 @@
-
+import os
 from tkinter import *
 master = Tk()
 master.geometry("300x300")
-master.title("Test Evidence") 
+master.title("Test Evidence")
+#folders = ['folder 01', 'folder 02', 'folder 03']
+#root_path = '/tmp/year/month/week/day1'
+
+#def createe():
+#     root_path = '/tmp/year/month/week/day1'
+#     folders = ['folder 01', 'folder 02', 'folder 03']
+
+#for folder in folders:
+#    os.mkdir(os.path.join(root_path, folder))
+
 Label(master, text='Component').grid(row=0) 
 Label(master, text='Test round').grid(row=1)
 Label(master, text='Study name').grid(row=2)  

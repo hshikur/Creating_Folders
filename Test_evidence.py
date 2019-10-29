@@ -1,19 +1,25 @@
 import os
+import sys
 from tkinter import *
 
 #def component_name(): 
 #    Device_component_name = e1.get()
 #    folder=Label(master)
 #    folder.grid(row=0,column=1)     
+#creatFolder()
 
-#def createFolder(get()):
-#    try:
-#        if not os.path.exists(get()):
-#            os.makedirs(get())
-#    except OSError:
-#        print ('Error: Creating get(). ' +  get())
+def createFolder():
+    try:
+        if not os.path.exists(e1):
+            os.makedirs(e1)
+    except OSError:
+        print ('Error: Creating get(). ' +  get())
 #        
-
+#def createFolder():
+#        if not os.path.exists(e1):
+#            os.makedirs(e1)
+#        if not os.path.exists(os.path.join(e1, e2):
+#            os.makedirs(e2)
 # Example
 #createFolder('./data/')
 
@@ -40,7 +46,7 @@ e3 = Entry(master)
 e1.grid(row=0, column=1) 
 e2.grid(row=1, column=1)
 e3.grid(row=2, column=1)
-button1=Button(master,text="Create Folders")
+button1=Button(master,text="Create Folders",command=createFolder)
 button1.place(x=110, y=110)
  
 mainloop() 
